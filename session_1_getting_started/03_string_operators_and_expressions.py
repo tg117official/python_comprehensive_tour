@@ -49,7 +49,8 @@ print("Ex3:", msg)  # Expected: Hello, Python learner!
 # Print both boolean results.
 # ------------------------------------------------------------
 text = "python"
-print("Ex4:", "py" in text, "Java" not in text)  # Expected: True True
+print("py" in text)
+print("Java" not in text)  # Expected: True True
 
 
 # ------------------------------------------------------------
@@ -100,8 +101,9 @@ print("Ex8:", new_animal)  # Expected: bat
 # Problem: Compare "apple" and "banana", then "Zoo" and "apple".
 # Print the booleans for < and == cases.
 # ------------------------------------------------------------
-print("Ex9:", "apple" < "banana", "apple" == "banana")  # Expected: True False
-print("Ex9:", "Zoo" < "apple")  # Expected: True (because 'Z' (90) < 'a' (97))
+print("apple" < "banana")
+print("apple" == "banana")  # Expected: True False
+print("Zoo" < "apple")  # Expected: True (because 'Z' (90) < 'a' (97))
 
 
 # ------------------------------------------------------------

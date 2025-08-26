@@ -12,6 +12,14 @@
 # Tip: You can’t change a string in place; build a new one using slices + concatenation.
 # ============================================================
 
+# Basics
+
+# "Hello", 'World' !!!
+print(""""Hello", 'World' !!! """)
+print('''"Hello", 'World' !!! ''')
+print('"Hello"', ",'World' !!!")
+print("\"Hello\", 'Word' !!!")
+print('"Hello", \'Word\' !!!')
 
 # ------------------------------------------------------------
 # Exercise 1: Basic Concatenation

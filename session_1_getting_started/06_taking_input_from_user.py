@@ -21,7 +21,7 @@ name_str = input("Enter your name: ").strip()
 
 age_str = input("Enter your age (e.g., 25): ").strip()
 height_str = input("Enter your height in meters (e.g., 1.75): ").strip()
-
+# Yes / yes / YES
 student_str = input("Are you a student? (yes/no): ").strip().lower()
 
 nums_str = input("Enter your favorite numbers (comma-separated, e.g., 3,5,7): ").strip()

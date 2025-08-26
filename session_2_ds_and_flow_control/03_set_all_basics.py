@@ -46,6 +46,8 @@ b = {3, 4, 5}
 print("Ex4 union:", a | b)  # Expected: {1,2,3,4,5}
 print("Ex4 inter:", a & b)  # Expected: {3}
 
+print("Ex4 union:", a.union(b))  # Expected: {1,2,3,4,5}
+print("Ex4 inter:", a.intersection(b))  # Expected: {3}
 
 # ------------------------------------------------------------
 # Ex5: Difference and Symmetric Difference

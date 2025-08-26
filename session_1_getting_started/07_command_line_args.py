@@ -47,13 +47,13 @@ parser.add_argument(
 
 # Optional flags
 parser.add_argument(
-    "--discount",
+    "--discount", "-d",
     type=float,
     default=0.0,
     help="Discount percentage to apply (e.g., 10 for 10%%). Default: 0",
 )
 parser.add_argument(
-    "--tax",
+    "--tax", "-t",
     type=float,
     default=0.0,
     help="Tax percentage to apply after discount (e.g., 18 for 18%%). Default: 0",

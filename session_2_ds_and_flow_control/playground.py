@@ -1,10 +1,15 @@
 
-l1 = ['apple', 'orange', 'grapes']
+# break and Continue
 
-# for i in l1[::-1]:
-#     print(i)
+# print login success if we have proper username and password
 
-i = len(l1)
-while i > 0 and i <= len(l1):
-    i = i - 1
-    print(l1[i])
+
+
+while True :
+    user = input("Enter Username : ")
+    password = input("Enter Password : ")
+    if user == 'admin' and password == 'admin' :
+        print("Login Success")
+        break
+    else:
+        print("Invalid Credentials, Username or Password Incorrect")

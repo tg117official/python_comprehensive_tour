@@ -1,19 +1,18 @@
+age = -3
+try:
+    if age < 0:
+        raise ValueError("Age cannot be negative.")
+    print("Ex6: Age is", age)
+except ValueError as e:
+    print("Ex6:", e)
 
 
 
-file_path = r"data\wordcount.txt"
-file = open(file_path, 'r')
 
-# # Real All content
-# print(file.read())
 
-# # Read line by line
-# print(file.readline())
-# print(file.readline())
-# print(file.readline())
-#
-# Real lines as list
-print(file.readlines())
+
+
+
 
 
 

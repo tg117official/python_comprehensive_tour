@@ -12,6 +12,9 @@ mat
 pat
 bat
 Mr. John
+Mr. John123
+Mr. John123#
+Mr. John123_123#123
 Mr James
 Mr Sunder
 Mr. Satya
@@ -21,6 +24,8 @@ Mr. A
 
 emails = 
 thisIsSample@gmail.com
+thisIsSample117@gmail.com
+this.Is.Sample117@gmail.com
 IamStudent@university.edu
 my-117-business@my-work.net
 
@@ -30,19 +35,18 @@ https://youtube.com
 https://www.nasa.gov
 
 """
-sentence = 'Start a sentence and then bring it to an end'
-pattern = re.compile(r'at')
+pattern = re.compile(r'(https?)://(www.)?(\w+)(\.\w+)')
 matches = pattern.finditer(text)
 
 for match in matches :
-    print(match)
+    print(match.group(4))
 
 # Study Drills :
 # 1. Match all three digits : r'\d\d\d'
 # 2. Match all phone numbers : r'\d\d\d.\d\d\d.\d\d\d\d'
 # 3. Match all phone numbers with . and - as separator : r'\d\d\d[-.]\d\d\d[-.]\d\d\d\d'
 # 4. Match all phone numbers starting with 800 or 900 : r'[89]00[-.]\d\d\d[-.]\d\d\d\d'
-# 5. Match all numbers in range 1 to 5 : r[1-5]
+# 5. Match all numbers in range 1 to 5 : r'[1-5]'
 # 6. Match all lowercase a to z : r[a-z]
 # 7. Match all lowercase and uppercase a to z : r[a-zA-Z]
 # 8. Match everything which is not lowercase or uppercase a to z : r'[^a-zA-Z]' | caret here works like negation

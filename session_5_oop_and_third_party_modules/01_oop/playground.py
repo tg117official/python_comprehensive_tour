@@ -1,33 +1,56 @@
-class Vector:
-    def __init__(self, x, y):
-        self.x = x  # x-coordinate
-        self.y = y  # y-coordinate
 
-    # Overloading the addition operator
-    def __add__(self, other):
-        if isinstance(other, Vector):
-            return Vector(self.x + other.x, self.y + other.y)
-        return NotImplemented
+# create a program
+# Class :  Student
+# create 3 instances/ object
+# Attributes : rno, name, class
+# function : print_detail
 
-    # Overloading the subtraction operator
-    def __sub__(self, other):
-        if isinstance(other, Vector):
-            return Vector(self.x - other.x, self.y - other.y)
-        return NotImplemented
 
-    # Overloading the string representation method, for easy printing of the object
-    def __str__(self):
-        return f"Vector({self.x}, {self.y})"
+class Car:
+    num_wheels = 4
+    def __init__(self, brand, model, mileage):
+        self.brand = brand
+        self.model = model
+        self.mileage = mileage
 
-# Example usage:
-v1 = Vector(2, 3)
-v2 = Vector(5, 7)
+    def print_details(self):
+        print(self.brand, self.model, self.mileage)
 
-# Add two vectors
-# res = (v1.x + v2.x)
-result = v1 + v2 # v1.__add__(v2)
-print(result)  # Outputs: Vector(7, 10)
 
-# Subtract two vectors
-result = v1 - v2
-print(result)  # Outputs: Vector(-3, -4)
+car1 = Car("Tata", "Tiago", 20)
+# Car.__init__(car1, "Tata", "Tiago", 20)
+
+car2 = Car("MS", "Swift", 21)
+# Car.__init__(car2, "MS", "Swift", 21)
+
+car3 = Car("TATA", "Nexon", 18)
+# Car.__init__(car3, "TATA", "Nexon", 18)
+
+
+# Access using Class | Access using Instance
+print(Car.num_wheels) # Using Clas
+print(car1.num_wheels) # using instance
+
+# Accessing Instance variables
+print(car1.model)
+# print(Car.model) won't work as using class we cannot access instance variable
+
+# Modifying vale for instance variable
+car1.model = "Altroz"
+car1.print_details()
+
+# Accessing class variable
+print(Car.num_wheels)
+print(car1.num_wheels)
+print(car2.num_wheels)
+print(car3.num_wheels)
+
+# Modify class variable
+Car.num_wheels = 8 # using Class : M --> all Instances + Class
+# car1.num_wheels = 8 # using instance : M --> Instance
+print("Class : ", Car.num_wheels)
+print("car1 : ", car1.num_wheels)
+print("car2 : ", car2.num_wheels)
+print("car3 : ", car3.num_wheels)
+
+

@@ -1,0 +1,20 @@
+    XML (eXtensible Markup Language) is a markup language that defines a set of
+rules for encoding documents in a format that is both human-readable and
+machine-readable.
+It is primarily used to facilitate the sharing of structured data across
+different information systems, particularly via the internet, and is often used
+for storing and transporting data.
+
+Common Use Cases in Python
+Configuration Files:
+    XML is commonly used for configuration files in various software applications
+    because of its structured format.
+Data Interchange:
+    XML provides a format for exchanging data between different applications or
+    between different layers of an application.
+Web Development:
+    In web services and APIs, XML is used for sending data between a client and
+    a server. It is an alternative to JSON.
+Office Documents:
+    Formats like Microsoft Office’s DOCX and Excel’s XLSX are based on XML for
+    document structure.

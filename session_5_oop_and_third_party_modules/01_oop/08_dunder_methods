@@ -1,0 +1,28 @@
+
+1. `__init__(self, ...)`: Initializes a new instance of a class.
+2. `__del__(self)`: Called when an instance is about to be destroyed.
+3. `__repr__(self)`: Returns an unambiguous string representation of the object, useful for debugging.
+4. `__str__(self)`: Returns a nicely printable string representation of an object.
+5. `__bytes__(self)`: Returns a byte representation of the object.
+6. `__add__(self, other)`: Defines behavior for the addition operator `+`.
+7. `__sub__(self, other)`: Defines behavior for the subtraction operator `-`.
+8. `__mul__(self, other)`: Defines behavior for the multiplication operator `*`.
+9. `__truediv__(self, other)`: Defines behavior for the division operator `/` using true division.
+10. `__floordiv__(self, other)`: Defines behavior for the division operator `/` using floor division.
+11. `__mod__(self, other)`: Defines behavior for the modulus operator `%`.
+12. `__pow__(self, other[, modulo])`: Defines behavior for the power operation ``.
+13. `__lt__(self, other)`: Defines behavior for the less than operator `<`.
+14. `__le__(self, other)`: Defines behavior for the less than or equal to operator `<=`.
+15. `__eq__(self, other)`: Defines behavior for the equality operator `==`.
+16. `__ne__(self, other)`: Defines behavior for the inequality operator `!=`.
+17. `__gt__(self, other)`: Defines behavior for the greater than operator `>`.
+18. `__ge__(self, other)`: Defines behavior for the greater than or equal to operator `>=`.
+19. `__getattr__(self, name)`: Called when an attribute lookup has not found the attribute in the usual places.
+20. `__setattr__(self, name, value)`: Called when an attribute assignment is attempted.
+21. `__delattr__(self, name)`: Called when an attribute deletion is attempted.
+22. `__getitem__(self, key)`: Defines behavior for accessing an item using indexing.
+23. `__setitem__(self, key, value)`: Defines behavior for setting an item in a container.
+24. `__delitem__(self, key)`: Defines behavior for deleting an item in a container.
+25. `__iter__(self)`: Returns an iterator for the container.
+26. `__next__(self)`: Returns the next item from the container.
+27. `__call__(self, *args, kwargs)`: Allows the instance to be called as a function.

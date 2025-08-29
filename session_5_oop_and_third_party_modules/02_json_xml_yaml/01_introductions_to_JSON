@@ -1,0 +1,54 @@
+# What is JSON?
+JSON (JavaScript Object Notation) is a lightweight data format that's easy for humans to read and write, and easy for machines to parse and generate. It is based on a subset of the JavaScript Programming Language, though it is language-independent and can be used with many programming languages including Python.
+
+# Introduction to JSON
+- Structure: JSON is built on two structures:
+  1. A collection of key/value pairs (often called an object, map, or dictionary).
+  2. An ordered list of values (often called an array, list, or sequence).
+
+  In JSON, keys are strings, and the values can be strings, numbers, arrays, or
+  even other JSON objects.
+
+- Example:
+
+  {
+      "name": "John",
+      "age": 30,
+      "is_student": false,
+      "skills": ["Python", "JavaScript"]
+  }
+
+
+# Use Cases of JSON
+- Web Development:
+        JSON is extensively used for sending data between a server and a web
+        application or between server-side applications.
+        It is the primary format for data interchange in web APIs.
+- Configuration Files:
+        JSON is used in various software for configuration files due to its
+        easy-to-understand structure.
+- Data Storage:
+        Some databases use JSON format for storing data.
+
+# Significance of the JSON Module in Python
+- Integration:
+        Since JSON is widely used for data interchange on the web, the JSON module
+        in Python allows for easy integration of Python applications with web services.
+- Conversion Features:
+        Python’s JSON module can convert Python objects into JSON strings and vice
+        versa.
+        This conversion is essential for applications that consume or produce data
+        that will be used by other web applications.
+- Ease of Use:
+        The JSON module provides a simple interface for encoding and decoding JSON
+        data, which simplifies the process of working with JSON in Python.
+
+# Python JSON Module
+- Encoding (Serialization):
+        Converting Python objects into JSON format using functions like
+        `json.dumps()` for creating a JSON formatted string or `json.dump()` for
+        writing JSON to a file.
+- Decoding (Deserialization):
+        Converting JSON data into Python objects using functions like
+        `json.loads()` for parsing a string of JSON data or `json.load()` for
+        reading JSON from a file.

@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<Library>
+    <Book title="Learning Python" author="Mark Lutz">
+        <Chapter>Getting Started</Chapter>
+        <Chapter>Data Structures</Chapter>
+    </Book>
+    <Book title="Effective Java" author="Joshua Bloch">
+        <Chapter>Java Platform</Chapter>
+        <Chapter>Generics</Chapter>
+    </Book>
+</Library>

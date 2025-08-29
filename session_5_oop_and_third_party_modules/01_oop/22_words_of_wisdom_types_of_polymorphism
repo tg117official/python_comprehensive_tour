@@ -1,0 +1,35 @@
+### 1. Ad-Hoc Polymorphism
+        This type includes function overloading and operator overloading. It is sometimes called
+"ad-hoc" because it allows functions or operators to operate differently based on their
+arguments.
+
+    - Function Overloading:
+            Having multiple functions with the same name but different parameters within the same
+            scope. Note that Python does not support function overloading by default but can simulate
+            this behavior with variable arguments or keyword arguments.
+    - Operator Overloading:
+            Mentioned in earlier examples, this allows operators to have different implementations
+            depending on their arguments. For example, the `+` operator can add integers, concatenate
+            strings, or combine lists, depending on the operand types.
+
+### 2. Parametric Polymorphism
+        Parametric polymorphism, often achieved through generics, allows a function or a data
+type to be written generically so that it can handle values identically without depending
+on their type. This is common in languages with strong type systems like Java and C#,
+but in Python, it's naturally supported through its dynamic typing.
+
+    - Generics: In strongly typed languages, generics allow classes and methods to operate on objects
+            of various types while providing compile-time type safety. Python achieves similar
+            functionality through duck typing, where the method or attribute's existence and
+            suitability are determined at runtime.
+
+### 3. Subtype Polymorphism (Inheritance Polymorphism)
+        This is what we commonly see in OOP through method overriding, where a subclass can
+provide a specific implementation of a method that is already defined in its superclass. This is
+the type of polymorphism most directly associated with inheritance.
+
+
+### 4. Duck Typing (Dynamic Polymorphism)
+        A form of polymorphism that is very natural to Python, where the method being called upon
+an object does not depend on the object's type but on whether it supports the method signature
+and operation (i.e., "If it looks like a duck and quacks like a duck, it must be a duck").

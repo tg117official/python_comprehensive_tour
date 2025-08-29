@@ -1,0 +1,9 @@
+OrderID,Date,Product,Category,Quantity,Price,Region
+1,2024-01-01,Laptop,Electronics,1,1200,North
+2,2024-01-02,Phone,Electronics,2,800,West
+3,2024-01-03,Table,Furniture,1,250,South
+4,2024-01-03,Chair,Furniture,4,100,South
+5,2024-01-04,Laptop,Electronics,1,1200,East
+6,2024-01-04,Phone,Electronics,3,800,North
+7,2024-01-05,Table,Furniture,2,250,West
+8,2024-01-05,Chair,Furniture,1,100,East

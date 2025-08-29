@@ -1,0 +1,25 @@
+Abstraction:
+        Abstraction is the concept of hiding the complex implementation details and showing only
+        the essential features of an object. It allows you to focus on what an object does rather
+        than how it does it. In Python, abstraction is achieved through the use of classes and
+        interfaces. You can define abstract base classes using the abc module, and subclasses
+        can provide their own implementation of abstract methods. Abstraction helps in managing
+        complexity by providing a simplified view of objects and their interactions.
+
+Encapsulation:
+        Encapsulation is the concept of bundling the data (attributes) and methods (functions)
+        that operate on the data into a single unit, called a class. It helps in restricting
+        access to the internal state of an object and only exposing the necessary interfaces to
+        interact with the object. In Python, encapsulation is achieved by defining class
+        attributes as private (using a single underscore _ prefix convention) and providing
+        getter and setter methods to access and modify these attributes. Encapsulation promotes
+        data hiding, which prevents direct access to the internal state of an object, thereby
+        protecting its integrity and promoting better maintainability and reusability of code.
+
+### Purpose of Abstract Classes and Methods
+        In OOP, abstract classes and methods serve as a blueprint for other classes. They allow
+        you to define methods that must be created within any child classes built from the
+        abstract class, thus enforcing a contract. This is useful when you have a general idea or
+        a set of functionalities that multiple types of objects can use, but the implementation
+        of these functionalities differs depending on the object.
+        
